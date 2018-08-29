@@ -1,0 +1,47 @@
+.main-conment{
+	position: relative;
+	/*top: -80px;*/
+	/*left: -20px;*/
+}
+#arrowName{
+	position: relative;
+	left: -20px;
+}
+header p{
+	/*height: 40px;*/
+	position: relative;
+	top: 10px;
+	font-size: 17px;
+}
+.nicheng{
+	
+}
+.main-conment{
+	
+}
+.ZHUANGTAI,.FABUSHIJIAN{
+	display: inline-block;
+	font-size: 15px;
+}
+.NICHENG{
+	font-size: 16px;
+	color: #FF6688;
+}
+/*底部*/
+footer{
+	position: fixed; 
+	bottom:0;
+	width: 100%;
+}
+footer input{
+	margin-left: 10px;
+	width: 80%;
+	font-size: 15px;
+	padding: 5px;
+}
+footer button{
+	border:0px;
+	height: 30px;
+	color: #FF6688;
+	background-color: rgba(0,0,0,0);
+}

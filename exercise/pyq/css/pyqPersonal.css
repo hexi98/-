@@ -1,0 +1,11 @@
+.main-conment{
+	position: relative;
+	top: -80px;
+}
+header p{
+	/*height: 40px;*/
+	position: relative;
+	top: 10px;
+	font-size: 17px;
+}
+

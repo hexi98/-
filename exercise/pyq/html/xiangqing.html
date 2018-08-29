@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="../../lib/mui.min.css"/>
+		<link href="../../lib/loaders.css" rel="stylesheet" />
+		<link href="../../lib/sweet-alert.css" rel="stylesheet" />
+		<link href="../../lib/sweetalert.css" rel="stylesheet" />
+		<!--<link rel="stylesheet" href="../css/pyqIndex.css" />-->
+		<link rel="stylesheet" href="../css/xiangqing.css" />
+	</head>
+
+	<body>	
+	<div id="container" style="background: white;">
+		
+		<!--顶部-->
+		<header  class="mui-bar-nav" style="background: #ff6688;height: 35px;">	
+			<p style="color: white;text-align: center;" >
+				<span class="mui-icon mui-icon-back" style="float: left;"></span>详情 
+			</p>
+		</header>
+
+		<!--主要内容-->
+		<div class="main-conment">
+			<div class="container-header">
+				<li class="mui-table-view-cell" style="list-style: none;">
+					<a class="mui-navigate-right" id="arrowName" >
+						<div class="mui-table-view-cell mui-media">
+								<img class="mui-media-object mui-pull-left" src="../img/img4.png" style="height: 20%;width: 20%;"  />
+							<div class="mui-media-body">
+								<p class="NICHENG">
+									母亲昵称
+								</p>
+								<p class="mui-ellipsis">
+									<p class="ZHUANGTAI">孕36周</p>
+									<p class="FABUSHIJIAN">15分钟前</p>
+								</p>
+							</div>
+						</div>
+					</a>				
+				</li>
+			</div>
+			
+			<div class="mui-card-content">
+				<!--2.正文内容：点开全文-->
+				<p class="ZHENGWENNR">叽里咕噜</p>
+				<!--4.发布地点-->
+				<div class="SUOZAIDIQU">
+					<span class="mui-icon mui-icon-location" style="color:darkgray ;font-size: 15px;">杭州市萧山区北干街道</span>
+				</div>
+			</div>
+			
+			<div class="mui-card-footer">
+				<!--5.点赞-->
+				<div class="DIANZAN">
+					<button @click='counter += 1' style="border: 0px;">
+						<span class="mui-icon mui-icon-star" style="color:darkgray"></span>
+						<p class="DIANZANSHU">{{counter}}</p>
+					</button>	
+				</div>
+				<!--6.评论-->
+				<div class="PINGLUN">
+					<button @click="" style="border: 0px;">
+						<span class="mui-icon mui-icon-chat" style="color:darkgray"></span>
+						<p class="PINGLUNSHU">0</p>
+					</button>
+				</div>
+			</div>
+		</div>
+		 <!--底部输入框-->
+		 <footer>
+		 	<input placeholder="说点什么吧..."/>
+		 	<button>发送</button>
+		 </footer>
+	</div>	
+	
+	
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+		<script type="text/javascript" src="../../lib/jquery-2.1.0.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="../../lib/mui.min.js" charset="utf-8"></script>
+		<script src="../../lib/loader.js"></script>
+		<script src="../../lib/sweetalert.min.js"></script>
+		<script type="text/javascript" src="../../config/utils/util.js" charset="utf-8"></script>
+		<script src="../../lib/mui.min.js"></script>
+		<script type="text/javascript" src="../config-js/xiangqing.js" ></script>
+		<script type="text/javascript" src="../js/xiangqing.js"></script>
+		<script type="text/javascript" src="../../module-compatible.js" charset="utf-8"></script>	
+	</body>
+</html>

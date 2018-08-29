@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: auto !important;
+}
+/*顶部导航*/
+.location-name{
+	color: white;
+}
+.XZQZ,.pyq,.camera,.location-name{
+	display: inline;
+}
+.header1{
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;	
+}
+.header2{
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content:center
+}
+.QUANBU,.YINSHI{
+	display: inline;
+	text-align: center;
+}
+.QUANBU{
+	margin-right: 40px;
+}
+/*消息提醒 个人头像*/
+.little-bar{
+	margin-top: 10px;
+}
+.XIAOXITS{
+	display: flex;
+	align-items: center;
+}
+.GERENTX{
+	display: flex;
+	justify-content:flex-end;
+	position: absolute;
+	z-index: 0;
+	margin-top: -40px;
+}
+/*pyq主要内容*/
+.pyqContainer{
+	background: white;
+}
+.container-header{
+	margin-left: -25px;
+	margin-top: 10px;
+}
+.mui-media-body{
+	margin-left: 4em;
+}
+.NICHENG{
+	font-size: 16px;
+	color: #FF6688;
+}
+
+.ZHUANGTAI,.FABUSHIJIAN{
+	display: inline-block;
+	font-size: 15px;
+}
+.mui-card-content .ZHENGWENNR{
+	color: black;
+}
+.mui-card-footer:before{
+	display:none;
+}
+.SUOZAIDIQU:before{
+	border-top: 1px solid gainsboro;
+	content: " ";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+}
+.SUOZAIDIQU{
+	padding-top: 10px;
+}
+/*页脚点赞+评论*/
+.DIANZAN,.DIANZANSHU,.PINGLUN,.PINGLUNSHU{
+	display: inline-block;
+}
+.DIANZAN,.PINGLUN{
+	/*display: flex;*/
+	/*align-items: center;*/
+	/*justify-content:center*/
+}
+.DIANZAN{
+	margin-left: 40px;
+}
+.PINGLUN{
+	margin-right: 40px;
+}
+.mui-slider-indicator{top:300px;button:auto}
+
+/*pyqPersonal.html*/
+.MQNC,.MQTX{
+	display: inline-block;
+}
+.MQNC{
+	position: relative;
+	top: -15px;
+	margin-right: 5px;
+}
+.nicheng{
+	position: relative;
+	left: 200px;
+	top:-50px
+}
